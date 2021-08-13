@@ -1,12 +1,102 @@
-body {
-	background-image: url("star.gif");
-	background-color: #000000;
-	color: #FFFFFF;
+body, html {
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	background-color: #17140f;
 }
-	a {
-    color: #CBBA43;
-   };
-   a:hover {
-    color: #E4CD2D;
-    text-decoration: underline;
-   };
+
+* html #maketo {
+	height: 100%;
+}
+
+#maketo {
+	width:820px;
+	margin:0 auto;
+	min-height: 100%;
+	/*border: 5px solid;*/
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-color: #6C6F47;
+	background-image: url("fo.png");
+	box-shadow: 0 0 10px;
+}
+
+#kapo{
+	/*border: 5px solid;*/
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-bottom: 5px solid;
+	border-color: #6C6F47;
+	background-image: url("fo.png");
+	background-color:#000000;
+	box-shadow: 0 0 10px;
+}
+
+#mdek{
+	
+	border: 5px solid;
+	border-color: #6C6F47;
+	box-shadow: 0 0 10px;
+	width:150px;
+	float:left;
+	text-align:left;
+}
+
+#materialo{
+	background-image: url("fo.png");
+	background-color:#FFFFFF;
+	margin-left:160px;
+	margin-right:0px;
+	border: 5px solid;
+	border-color: #6C6F47;
+	box-shadow: 0 0 10px;
+}
+
+#kelo{
+	background-image: url("fo.png");
+	background-color:#FFFFFF;
+	clear:both;
+	height: 45px;
+	margin-top:-50px;
+	width:820px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 5px solid;
+	border-left: 5px solid;
+	border-right: 5px solid;
+	border-color: #6C6F47;
+}
+
+#stego {
+	height: 45px;
+}
+
+a {
+	color: #CBBA43;
+}
+
+a:hover {
+	color: #E4CD2D;
+	text-decoration: underline;
+}
+
+p {
+	color: #F2F2F2 ;
+}
+
+h2 {
+	font-size: 1.1em;
+	color: #aba144;
+	margin-top: 0;
+}
+
+h3 {
+	color: #aba144;
+	margin-top: 0;
+}
+
+h4 {
+	color: #aba144;
+	margin-top: 0;
+}
