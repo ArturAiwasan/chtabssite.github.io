@@ -33,7 +33,6 @@ body, html {
 }
 
 #mdek{
-	
 	border: 5px solid;
 	border-color: #6C6F47;
 	box-shadow: 0 0 10px;
@@ -45,7 +44,7 @@ body, html {
 #materialo{
 	background-image: url("fo.png");
 	background-color:#FFFFFF;
-	margin-left:160px;
+	margin-left:163px;
 	margin-right:0px;
 	border: 5px solid;
 	border-color: #6C6F47;
@@ -82,7 +81,7 @@ a:hover {
 }
 
 p {
-	color: #F2F2F2 ;
+	color: #F2F2F2;
 }
 
 h2 {
@@ -104,4 +103,8 @@ h4 {
 h5 {
 	color: #aba144;
 	margin-top: 0;
+}
+
+.teksto-bloko {
+	margin: 3px;
 }
